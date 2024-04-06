@@ -1,0 +1,132 @@
+﻿@model IEnumerable<Foodie.Models.Cart>
+@{
+    ViewData["Title"] = "User_dashboard";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+    ViewBag.Total = 0;
+}
+
+<section class="book_section layout_padding">
+    <div class="container">
+        <div class="heading_container">
+            <div class="align-self-end">
+                <label id="lblMsg" style="display: none;"></label>
+            </div>
+            <h2>Your Shopping Cart</h2>
+        </div>
+    </div>
+    <div class="container">
+        <table id="tblcart" class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Unit Price</th>
+                    <th>Quantity</th>
+                    <th>Total Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Repeater ItemTemplate -->
+                @if(Model != null)
+                {
+                    foreach (var items in Model)
+                    {
+                        <tr>
+                            <td>
+                                <label id="lblName">@items.Name</label>
+                            </td>
+                            <td>
+                                <img width="50" src="~/@items.ImageUrl" alt="" />
+                            </td>
+                            <td>
+                                <label id="lblPrice">@items.Price</label>
+                                <input type="hidden" id="hdnProductId" value="@items.ProductId" />
+                                <input type="hidden" id="hdnQuantity" value="@items.Qty" />
+                                <input type="hidden" id="hdnPrdQuantity" value="@items.PrdQuantity" />
+                            </td>
+                            <td>
+                                <div class="product__details__option">
+                                    <div class="quantity">
+                                        <div class="pro-qty">
+                                            @{
+                                                int maxQuantity = items.PrdQuantity; // Set the maximum quantity
+                                                int displayedQuantity = items.Quantity > maxQuantity ? maxQuantity : items.Quantity;
+                                            }
+                                            <input type="number" id="txtQuantity" value="@displayedQuantity" @(items.Quantity >= items.PrdQuantity ? "readonly" : "") />
+                                            <span class="red-text" display="none"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <label id="lblTotalPrice">@(items.Price * items.Quantity)</label>
+                                @*<span id="hdfTotalPrice" display="none"></span>*@
+                            </td>
+                            @{
+                                ViewBag.Total += (items.Price * items.Quantity);
+                            }
+                            <td>
+                                <a href="#" onclick="removeItem(@items.ProductId)" class="btn btn-link">
+                                    Remove <i class="fa fa-close"></i>
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                }
+                
+                <!-- Repeater FooterTemplate -->
+                <tr>
+                    <td colspan="3"></td>
+                    <td class="pl-lg-5">
+                        <b>Total:-</b>
+                    </td>
+                    <td id="totalPrice">Rs @ViewBag.Total</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="continue__btn">
+                        <a href="@Url.Action("Menu","User")" class="btn btn-info">
+                            <i class="fa fa-arrow-circle-left mr-2"></i>Continue Ordering
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#" onclick="updateCart()" class="btn btn-warning">
+                            <i class="fa fa-refresh mr-2"></i>Update Cart
+                        </a>
+                    </td>
+                    <td>
+                        <a href="@Url.Action("CheckOut","User")" class="btn btn-success">
+                            Checkout <i class="fa fa-arrow-circle-right ml-2"></i>
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<script type="text/javascript">
+
+
+    @{decimal total = 0;}
+    function updateTotal(isUpdate) {
+        debugger;
+        if(isUpdate == true){
+            @ViewBag.Total = document.getElementById("totalPrice").innerHTML;
+            @{
+                total = Convert.ToDecimal(ViewBag.Total);
+                Context.Session.SetInt32("totalprice", Convert.ToInt32(total));
+            }
+        }
+    }
+    @ViewBag.Total = document.getElementById("totalPrice").innerHTML;
+    @{
+        total = Convert.ToDecimal(ViewBag.Total);
+        Context.Session.SetInt32("totalprice", Convert.ToInt32(total));
+    }
+
+
+    
+</script>
+<script type="text/javascript" src="~/Javascript/Cart.js"></script>

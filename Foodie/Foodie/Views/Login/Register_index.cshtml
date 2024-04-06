@@ -1,0 +1,105 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <script src="~/Javascript/Login.js"></script>
+    @*<link rel="stylesheet" href="~/css/bootstrap/css/bootstrap.min.css"/>
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="~/icon/themify-icons/themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="~/icon/icofont/css/icofont.css">
+    <!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+    <link rel="stylesheet" type="text/css" href="~/css/jquery.mCustomScrollbar.css">
+    <script type="text/javascript" src="~/js/jquery/jquery.min.js"></script>*@
+
+    <link rel="stylesheet" type="text/css" href="~/Files/css/bootstrap.css" />
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- nice select  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <!-- font awesome style -->
+    <link href="~/Files/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="~/Files/css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="~/Files/css/responsive.css" rel="stylesheet" />
+    <!-- jQery -->
+    <script src="~/Files/js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <section class="book_section layout_padding">
+        <div class="container">
+            <div class="heading_container">
+                <div class="align-self-end">
+                    <label id="lblMsg" style="display:none;"></label>
+                </div>
+                <h2>User Registration</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form_container">
+                        <div>
+                            <input type="text" id="txtName" class="form-control" placeholder="Enter Full Name" title="Full Name" />
+                            <span id="rvfName" style="color: red; display: none;"></span>
+                            <span id="revName" style="color: red; display: none;"></span>
+                        </div>
+                        <div>
+                            <input type="text" id="txtUsername" class="form-control" placeholder="Enter Username" title="Username" />
+                            <span id="rvfUsername" style="color: red; display: none;"></span>
+                        </div>
+                        <div>
+                            <input type="text" id="txtEmail" class="form-control" placeholder="Enter Email" title="Email" />
+                            <span id="rvfEmail" style="color: red; display: none;"></span>
+                        </div>
+                        <div>
+                            <input type="number" id="txtMobile" class="form-control" placeholder="Enter Mobile Number" title="Mobile" />
+                            <span id="rvfMobile" style="color: red; display: none;"></span>
+                            <span id="revMobile" style="color: red; display: none;"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form_container">
+                        <div>
+                            <textarea id="txtAddress" class="form-control" placeholder="Enter Address" title="Address"></textarea>
+                            <span id="rvfAddress" style="color: red; display: none;"></span>
+                        </div>
+                        <div>
+                            <input type="number" id="txtPostCode" class="form-control" placeholder="Enter PostCode" title="ZipCode" />
+                            <span id="rvfPostCode" style="color: red; display: none;"></span>
+                            <span id="revPostCode" style="color: red; display: none;"></span>
+                        </div>
+                        <div>
+                            <input type="file" id="fuUserImage" class="form-control" title="User Image" onchange="ImagePreview(this);" />
+                        </div>
+                        <div>
+                            <input type="password" id="txtPassword" class="form-control" placeholder="Enter Password" title="Password" />
+                            <span id="rvfPassword" style="color: red; display: none;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pl-4">
+                <div class="btn_box">
+                    <button type="button" id="btnRegister" class="btn btn-success rounded-pill pl-4 pr-4 text-white" onclick="Register()">Register</button>
+                    <label id="lblAlreadyUser" class="pl-3 text-black-100">Already Registered? <a action="Index" class='badge badge-info'>Login Here...</a></label>
+                </div>
+            </div>
+            <div class="row p-5">
+                <div style="align-items:center">
+                    <img id="imgUser" class="img-thumbnail" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

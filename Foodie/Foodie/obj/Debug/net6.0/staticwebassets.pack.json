@@ -1,0 +1,1033 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Foodie.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Foodie.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Files\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\Files\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Files\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\style.css",
+      "PackagePath": "staticwebassets\\Files\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\Files\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\css\\style.scss",
+      "PackagePath": "staticwebassets\\Files\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\Files\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\Files\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\Files\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\Files\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\Files\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\Files\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f1.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f1.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f2.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f2.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f3.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f3.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f4.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f4.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f5.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f5.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f6.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f6.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f7.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f7.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f8.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f8.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\f9.png",
+      "PackagePath": "staticwebassets\\Files\\images\\f9.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\Files\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\Files\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\Files\\images\\o1.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\Files\\images\\o2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Files\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Files\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Files\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\Files\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Capture.PNG",
+      "PackagePath": "staticwebassets\\Images\\Capture.PNG"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\11aa0705-ea6d-44ee-a986-3d8bf10f1e33_Screenshot 2024-01-28 125401.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\11aa0705-ea6d-44ee-a986-3d8bf10f1e33_Screenshot 2024-01-28 125401.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\23ff386c-6064-4670-9a7f-3a7975f0de57_Screenshot 2024-02-14 184129.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\23ff386c-6064-4670-9a7f-3a7975f0de57_Screenshot 2024-02-14 184129.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\26b77870-ab3e-46f3-8795-b306f468f7e8_dosa.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\26b77870-ab3e-46f3-8795-b306f468f7e8_dosa.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\45d4f57f-4bf9-4450-8bc3-80b04daabd0c_Screenshot 2024-01-28 125401.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\45d4f57f-4bf9-4450-8bc3-80b04daabd0c_Screenshot 2024-01-28 125401.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\4b2dddf7-a1fa-44d1-bbad-24bb770de990.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\4b2dddf7-a1fa-44d1-bbad-24bb770de990.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\4efc2e7f-88a6-4eef-8b29-b61593371db0.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\4efc2e7f-88a6-4eef-8b29-b61593371db0.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\54ad23aa-9f9d-4769-8eb6-b8a1cbcd097e.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\54ad23aa-9f9d-4769-8eb6-b8a1cbcd097e.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\5dc64550-5c3b-4b52-922a-2c58211de762_Screenshot 2024-01-28 223051.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\5dc64550-5c3b-4b52-922a-2c58211de762_Screenshot 2024-01-28 223051.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\6a02fa3a-fedd-44f0-a2e8-150e70c8bed8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\6a02fa3a-fedd-44f0-a2e8-150e70c8bed8.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\8d170606-817c-455f-9368-1ed2dc0af87d_Screenshot 2024-01-28 125401.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\8d170606-817c-455f-9368-1ed2dc0af87d_Screenshot 2024-01-28 125401.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\8f1a79b3-ad59-41f0-9bb9-ee8aa81ced9a_Screenshot 2024-01-28 125401.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\8f1a79b3-ad59-41f0-9bb9-ee8aa81ced9a_Screenshot 2024-01-28 125401.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\bb770427-bdf7-45a8-9479-823549e5645f_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\bb770427-bdf7-45a8-9479-823549e5645f_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\cee4ffa2-4d21-436b-abbf-28ec82987362_Screenshot 2024-01-28 125401.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\cee4ffa2-4d21-436b-abbf-28ec82987362_Screenshot 2024-01-28 125401.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\e94f93da-42fb-4eeb-a07e-0ca0868745e5.png",
+      "PackagePath": "staticwebassets\\Images\\Category\\e94f93da-42fb-4eeb-a07e-0ca0868745e5.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\f6ac76b0-6e9e-4e9f-852f-ac3dc09ccfd0_Screenshot (2).png",
+      "PackagePath": "staticwebassets\\Images\\Category\\f6ac76b0-6e9e-4e9f-852f-ac3dc09ccfd0_Screenshot (2).png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Category\\f7891f44-21c2-4301-9421-dd576a6202f4_golgappa.jpg",
+      "PackagePath": "staticwebassets\\Images\\Category\\f7891f44-21c2-4301-9421-dd576a6202f4_golgappa.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\2dad7e05-3ee6-48d0-b1d6-c80f2d0240ee_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\2dad7e05-3ee6-48d0-b1d6-c80f2d0240ee_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\30c22684-9c30-4a35-9f37-a895a9f2f6bf_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\30c22684-9c30-4a35-9f37-a895a9f2f6bf_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\33e3f0ae-2cf1-4fce-82ab-0af8e871e6a5_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\33e3f0ae-2cf1-4fce-82ab-0af8e871e6a5_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\5ee6e90b-ea76-44e5-8c9a-98c4f6c17615_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\5ee6e90b-ea76-44e5-8c9a-98c4f6c17615_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\8039c481-66e5-4113-bf6e-4ca41eec5fdf_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\8039c481-66e5-4113-bf6e-4ca41eec5fdf_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\ac36cdb6-058c-4009-b8f0-91758b5a6c8d_dosa.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\ac36cdb6-058c-4009-b8f0-91758b5a6c8d_dosa.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\af9305fd-d71e-418c-8ce7-d43e1c614533_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\af9305fd-d71e-418c-8ce7-d43e1c614533_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\b0a7e54a-40af-4e24-92fe-7400c803328b_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\b0a7e54a-40af-4e24-92fe-7400c803328b_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\b68587a2-fd67-4e5d-82b4-f4d361222da0.png",
+      "PackagePath": "staticwebassets\\Images\\Product\\b68587a2-fd67-4e5d-82b4-f4d361222da0.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\baa3ff1d-7424-4530-af1f-c97e56b20545_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\baa3ff1d-7424-4530-af1f-c97e56b20545_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\e205f26b-eb27-4312-bbb9-126f8b11a748_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\e205f26b-eb27-4312-bbb9-126f8b11a748_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\eb6fa7a8-7da1-42df-a1ae-d4ae4ae57d1e.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\eb6fa7a8-7da1-42df-a1ae-d4ae4ae57d1e.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\Product\\fbd070c5-2281-499c-955b-fae2c4fbeb9a_giniroll dosa.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Product\\fbd070c5-2281-499c-955b-fae2c4fbeb9a_giniroll dosa.jpeg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\0c9f6276-57a3-461d-bf19-8dffd538145b.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\0c9f6276-57a3-461d-bf19-8dffd538145b.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\49b7d1b0-6f92-47d2-99ea-a6c3408f2cae.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\49b7d1b0-6f92-47d2-99ea-a6c3408f2cae.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\5dfc0a41-5251-492f-9123-2bb75f1ea246.png",
+      "PackagePath": "staticwebassets\\Images\\User\\5dfc0a41-5251-492f-9123-2bb75f1ea246.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\6420a681-efdd-488b-8515-f96a7408c1c2.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\6420a681-efdd-488b-8515-f96a7408c1c2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\660b3a8b-25b3-4495-ba2b-5ff3ec20b7a9.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\660b3a8b-25b3-4495-ba2b-5ff3ec20b7a9.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\8dc53bf2-0ab6-4441-baa4-fa590b4683a1.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\8dc53bf2-0ab6-4441-baa4-fa590b4683a1.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\User\\dc91e45f-cbca-44e0-9764-3eb8373e745a.jpg",
+      "PackagePath": "staticwebassets\\Images\\User\\dc91e45f-cbca-44e0-9764-3eb8373e745a.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\Images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\Images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\auth\\logo.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\avatar-1.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\avatar-2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\avatar-3.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\avatar-4.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\Images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\Images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\Images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\Images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\login2.jpg",
+      "PackagePath": "staticwebassets\\Images\\login2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\Images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\no_image.jpg",
+      "PackagePath": "staticwebassets\\Images\\no_image.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\Images\\pattern2.jpg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Images\\user.png",
+      "PackagePath": "staticwebassets\\Images\\user.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Javascript\\Cart.js",
+      "PackagePath": "staticwebassets\\Javascript\\Cart.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Javascript\\Category.js",
+      "PackagePath": "staticwebassets\\Javascript\\Category.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Javascript\\CheckOut.js",
+      "PackagePath": "staticwebassets\\Javascript\\CheckOut.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Javascript\\Login.js",
+      "PackagePath": "staticwebassets\\Javascript\\Login.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\Javascript\\Product.js",
+      "PackagePath": "staticwebassets\\Javascript\\Product.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\css\\dataTables.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\dataTables.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\css\\icon-font.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\icon-font.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\css\\responsive.bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\responsive.bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\datatables\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\fonts\\ionicons.ttf",
+      "PackagePath": "staticwebassets\\datatables\\fonts\\ionicons.ttf"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\fonts\\ionicons.woff",
+      "PackagePath": "staticwebassets\\datatables\\fonts\\ionicons.woff"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\datatables\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\datatables\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\buttons.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\buttons.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\buttons.flash.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\buttons.flash.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\buttons.html5.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\buttons.html5.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\buttons.print.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\buttons.print.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\dataTables.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\dataTables.buttons.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.buttons.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\dataTables.responsive.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\dataTables.responsive.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\datatable-setting.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\datatable-setting.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\jszip.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\jszip.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\pdfmake.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\pdfmake.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\responsive.bootstrap4.min.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\responsive.bootstrap4.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\datatables\\js\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\datatables\\js\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\Admin.js",
+      "PackagePath": "staticwebassets\\js\\Admin.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\classie.js",
+      "PackagePath": "staticwebassets\\js\\classie.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\js\\common-pages.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\js\\demo-12.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\js\\script.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "C:\\Shubham\\ASP.NET Project\\Foodie\\Foodie\\wwwroot\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Foodie.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Foodie.props",
+      "PackagePath": "build\\Foodie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Foodie.props",
+      "PackagePath": "buildMultiTargeting\\Foodie.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Foodie.props",
+      "PackagePath": "buildTransitive\\Foodie.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

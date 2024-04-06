@@ -1,0 +1,104 @@
+﻿@model IEnumerable<Foodie.Models.CategoryModel>
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="pcoded-inner-content pt-0">
+    <div class="align-align-self-end">
+        <label id="lblMsg" style="display:none;"></label>
+    </div>
+    <div class="main-body">
+        <div class="page-wrapper">
+
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-block">
+                                <div class="row">
+
+                                    <div class="col-sm-6 col-md-4 col-lg-4">
+                                        <h4 class="sub-title">Category</h4>
+                                        @*@using (Html.BeginForm("saveImage", "AdminDashboard", FormMethod.Post))
+                                        {
+                                          *@  
+                                        
+                                        @*<form asp-action="saveImage" enctype="multipart/form-data" method="post">*@
+                                                <div class="form-group">
+                                                    <label for="txtName">Category Name</label>
+                                                    <div>
+                                                        <input type="text" id="txtName" class="form-control" placeholder="Enter Category Name" required>
+                                                    
+                                                        <input type="hidden" id="hdnId" value="0">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="fuCategoryImage">Category Image</label>
+                                                    <div>
+                                                    <input type="file" id="fuCategoryImage" name="fuCategoryImage" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="form-check-pl-4">
+                                                    &nbsp; &nbsp; &nbsp;
+                                                    <input type="checkbox" id="cbIsActive" class="form-check-input">
+                                                    IsActive
+                                                </div>
+                                                <div class="pb-5">
+                                                    @*<button id="btn*@@*AddOrUpdate" type="button" role ="button" onclick="btnAddorUpdate(this)" class="btn btn-primary">Add</button>
+                                                    <button id="btnClear" class="btn btn-primary" onclick="btnClear_Click()" type="button" role="button">Clear</button>*@
+                                                </div>
+                                            <button type="button" onclick ="btnAddorUpdateCategory()"class="btn btn-primary" id="btnAddOrUpdate">Add</button>
+                                        @*</form>*@
+                                        @*}*@
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-8 col-lg-8 mobile-inputs">
+                                        <h4 class="sub-title">Category Lists</h4>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table data-table-export table-hover nowrap">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="table-plus">Name</th>
+                                                            <th>Image</th>
+                                                            <th>IsActive</th>
+                                                            <th>CreatedDate</th>
+                                                            <th class="datatable-nosort">Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                            @foreach (var item in Model)
+                                                            {
+                                                                <tr>
+                                                                    <td>@item.Name</td>
+                                                                    <td><img width="40px" src="~/@item.ImageUrl" /></td>
+                                                                    <td>@item.IsActive</td>
+                                                                    <td>@item.CreatedDate</td>
+                                                                    <td>
+                                                                        @*@Html.ActionLink("Edit","EditCategory",new{ id = item.CategoryId}) |
+                                                                        @Html.ActionLink("Delete","DeleteCategory",new {id = item.CategoryId})*@
+
+                                                                    <button type="button" id="btnEditCategory" onclick="EditCategory(@item.CategoryId)"><i class="ti-pencil"></i></button>
+                                                                    <button type="button" onclick="deleteCategory(@item.CategoryId)"><i class="ti-trash"></i></button>
+                                                                    </td>
+                                                                </tr>
+                                                            }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Javascript/Category.js"></script>

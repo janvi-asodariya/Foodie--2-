@@ -1,0 +1,150 @@
+﻿@model IEnumerable<Foodie.Models.Products>
+@{
+    ViewData["Title"] = "Product";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int i = 0;
+}
+
+
+<div class="pcoded-inner-content pt-0">
+    <div class="align-align-self-end">
+        <label id="lblMsg" style="display:none;"></label>
+    </div>
+    <div class="main-body">
+        <div class="page-wrapper">
+
+            <div class="page-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="card">
+                            <div class="card-header">
+                            </div>
+                            <div class="card-block">
+                                <div class="row">
+
+                                    <div class="col-sm-6 col-md-4 col-lg-4">
+                                        <h4 class="sub-title">Product</h4>
+                                        <div>
+                                            <div class="form-group">
+                                                <label for="txtName">Product Name</label>
+                                                <div>
+                                                    <input type="text" id="txtName" class="form-control" placeholder="Enter Product Name">
+                                                    <span id="RequiredFieldValidator1" style="color:Red;display:none;">Name Is Required</span>
+                                                    <input type="hidden" id="hdnId" value="0">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="txtDescription">Product Description</label>
+                                                <div>
+                                                    <textarea id="txtDescription" class="form-control" placeholder="Enter Product Description"></textarea>
+                                                    <span id="RequiredFieldValidator2" style="color:Red;display:none;">Description Is Required</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="txtPrice">Product Price(₹)</label>
+                                                <div>
+                                                    <input type="text" id="txtPrice" class="form-control" placeholder="Enter Product Price">
+                                                    <span id="RequiredFieldValidator3" style="color:Red;display:none;">Price Is Required</span>
+                                                    <span id="RegularExpressionValidator1" style="color:Red;display:none;">Price must be in decimal</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="txtQuantity">Product Quantity</label>
+                                                <div>
+                                                    <input type="text" id="txtQuantity" class="form-control" placeholder="Enter Product Quantity">
+                                                    <span id="RequiredFieldValidator4" style="color:Red;display:none;">Quantity Is Required</span>
+                                                    <span id="RegularExpressionValidator2" style="color:Red;display:none;">Price must be non-negative</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="fuProductImage">Product Image</label>
+                                                <div>
+                                                    <input type="file" id="fuProductImage" class="form-control" onchange="ImagePreview(this);">
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label for="ddlCategories">Product Category</label>
+                                                <div>
+                                                    <select id="ddlCategories" class="form-control">
+                                                       @* @foreach(var cat in Model)
+                                                        {
+                                                            <option value="@i">@cat.Categories.Name</option>
+                                                            i += 1;
+                                                        }*@
+                                                        <!-- Categories will be dynamically populated here -->
+                                                    </select>
+                                                    <span id="categoryId" style="display:none"></span>
+                                                    <span id="RequiredFieldValidator5" style="color:Red;display:none;">Category Is Required</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-check-pl-4">
+                                                &nbsp;&nbsp;&nbsp;<input type="checkbox" id="cbIsActive" class="form-check-input"> IsActive
+                                            </div>
+                                            <div class="pb-5">
+                                                <button id="btnAddOrUpdate" class="btn btn-primary" onclick="btnAddorUpdateProduct()">Add</button>
+                                            </div>
+                                            <div>
+                                                <img id="imgProduct" class="img-thumbnail" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-8 col-lg-8 mobile-inputs">
+                                        <h4 class="sub-title">Category Lists</h4>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table data-table-export table-hover nowrap">
+                                                    <thead>
+                                                        <tr>
+                                                            <th class="table-plus">Name</th>
+                                                            <th>Image</th>
+                                                            <th>Price</th>
+                                                            <th>Quantity</th>
+                                                            <th>Category</th>
+                                                            <th>IsActive</th>
+                                                            <th>Description</th>
+                                                            <th>CreatedDate</th>
+                                                            <th class="datatable-nosort">Action</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <!-- Product data will be dynamically populated here -->
+                                                        @foreach(var item in Model)
+                                                        {
+                                                            <tr>
+                                                                <td class="table-plus">@item.Name</td>
+                                                                <td><img width="40px" src="~/@item.ImageUrl"/></td>
+                                                                <td>@item.Price</td>
+                                                                <td>@item.Quantity</td>
+                                                                <td>@item.CategoryName</td>
+                                                                <td>@item.IsActive</td>
+                                                                <td>@item.Description</td>
+                                                                <td>@item.CreatedDate</td>
+                                                                <td>
+                                                                    <button type="button" id="btnEditProduct" onclick="EditProduct(@item.ProductId)"><i class="ti-pencil"></i></button>
+                                                                    <button type="button" onclick="deleteCategory(@item.ProductId)"><i class="ti-trash"></i></button>
+                                                                </td>
+                                                            </tr>
+                                                        }
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Javascript/Product.js"></script>

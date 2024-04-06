@@ -1,0 +1,165 @@
+﻿
+@{
+    ViewData["Title"] = "CheckOut";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+
+<section class="book_section" style="background-image: url('../Images/payment-bg.png'); width: 100%; height: 100%; background-repeat: no-repeat; background-size: auto; background-attachment: fixed; background-position: left;">
+
+    <div class="container py-5">
+        <div class="align-self-end">
+            <asp:Label ID="lblMsg"  Visible="false"></asp:Label>
+        </div>
+        <div class="row mb-4">
+            <div class="col-lg-8 mx-auto text-center">
+                <h1 class="display-6">Order Payment</h1>
+            </div>
+            <span id ="hdfprice" style="display:none"></span>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-6 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="bg-white shadow-sm pt-4 pl-2 pr-2 pb-2">
+                            <!-- Credit card form tabs -->
+                            <ul role="tablist" class="nav bg-light nav-pills rounded nav-fill mb-3">
+                                <li class="nav-item"> <a data-toggle="pill" href="#credit-card" class="nav-link active "> <i class="fa fa-credit-card mr-2"></i> Credit Card </a> </li>
+                                <li class="nav-item"> <a data-toggle="pill" href="#paypal" class="nav-link "><i class="fa fa-money mr-2"></i>Cash On Delivery </a> </li>
+                            </ul>
+                        </div> <!-- End -->
+                        <div class="tab-content">
+                            <!-- credit card info-->
+                            <div id="credit-card" class="tab-pane fade show active pt-3">
+                                <div role="form">
+                                    <div class="form-group">
+                                        <label for="txtName">
+                                            <h6>Card Owner</h6>
+                                        </label>
+                                        @*<asp:RequiredFieldValidator ID="rvfName"  ErrorMessage="Name is Required"
+                                                                    ControlToValidate="txtName" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
+                                                                    ValidationGroup="card">*</asp:RequiredFieldValidator>*@
+                                        @*<asp:RegularExpressionValidator ID="revName"  ValidationGroup="card" ErrorMessage="Name must be in characters only" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="^[a-zA-Z\s]+$" ControlToValidate="txtName">*</asp:RegularExpressionValidator>*@
+                                        <input type= "text" ID="txtName" class="form-control" placeholder="Card Holder Name"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtCardNo">
+                                            <h6>Card Number</h6>
+                                        </label>
+                                        @*<asp:RequiredFieldValidator ID="rvfCardNo"  ErrorMessage="Card Number is Required"
+                                                                    ControlToValidate="txtCardNo" ForeColor="Red" Display="Dynamic" SetFocusOnError="true"
+                                                                    ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                        <asp:RegularExpressionValidator ID="revCardNo"  ValidationGroup="card" ErrorMessage="Must be of 16 digits" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="[0-9]{16}" ControlToValidate="txtCardNo">*</asp:RegularExpressionValidator>*@
+                                        <div class="input-group">
+                                            <input type="text" ID="txtCardNo"  class="form-control" placeholder="Card Number"/>
+                                            <div class="input-group-append">
+                                                <span class="input-group-text text-muted">
+                                                    <i class="fa fa-cc-visa mx-1"></i>
+                                                    <i class="fa fa-cc-mastercard mx-1"></i>
+                                                    <i class="fa fa-cc-amex mx-1"></i>
+
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-8">
+                                            <div class="form-group">
+                                                <label>
+                                                    <span class="hidden-xs">
+                                                        <h6>Expiration Date</h6>
+                                                    </span>
+                                                </label>
+                                                @*<asp:RequiredFieldValidator ID="rfvExpMonth"  ErrorMessage="Expiry Month is required"
+                                                                            ControlToValidate="txtExpMonth" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                <asp:RegularExpressionValidator ID="regExpMonth"  ValidationGroup="card" ErrorMessage="Must be of 2 digits" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="[0-9]{2}" ControlToValidate="txtExpMonth">*</asp:RegularExpressionValidator>
+                                                <asp:RequiredFieldValidator ID="rfvExpYear"  ErrorMessage="Expiry Year is required"
+                                                                            ControlToValidate="txtExpYear" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                <asp:RegularExpressionValidator ID="RegularExpressionValidator1"  ValidationGroup="card" ErrorMessage="Must be of 4 digits" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="[0-9]{4}" ControlToValidate="txtExpYear">*</asp:RegularExpressionValidator>*@
+
+                                                <div class="input-group">
+                                                    <input type="number" ID="txtExpMonth" class="form-control" placeholder="MM"/>
+                                                    <input type="number" ID="txtExpYear" class="form-control" placeholder="YYYY"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="form-group mb-4">
+                                                <label data-toggle="tooltip" title="Three digit CV code on the back of your card">
+                                                    <h6>CVV <i class="fa fa-question-circle d-inline"></i></h6>
+                                                </label>
+                                                @*<asp:RequiredFieldValidator ID="rfvCvv"  ErrorMessage="Cvv is required"
+                                                                            ControlToValidate="txtCvv" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>
+                                                <asp:RegularExpressionValidator ID="regCvv"  ValidationGroup="card" ErrorMessage="Must be of 3 digits" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationExpression="[0-9]{3}" ControlToValidate="txtCvv">*</asp:RegularExpressionValidator>*@
+                                                <input type="number" ID="txtCvv" class="form-control" placeholder="Cvv" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="txtAddress">
+                                            <h6>Delivery Address</h6>
+                                        </label>
+                                        @*<asp:RequiredFieldValidator ID="rfvAddress"  ErrorMessage="Address is required"
+                                                                    ControlToValidate="txtAddress" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="card">*</asp:RequiredFieldValidator>*@
+                                        <input type="text" ID="txtAddress" class="form-control" placeholder="Address" ValidationGroup="card"></input>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" ID="lbCardSubmit" onclick="Orderpayment('Card')" class="subscribe btn btn-info btn-block shadow" ValidationGroup="card">Confirm Payment</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End -->
+                            <div id="paypal" class="tab-pane fade pt-3">
+                                <div class="form-group">
+                                    <label for="txtCOD">
+                                        <h6>Delivery Address</h6>
+                                    </label>
+                                    <input ID="txtCOD" type="text" class="form-control" placeholder="Delivery Address"  ValidationGroup="card"/>
+                                    @*<asp:RequiredFieldValidator ID="rfvCOD"  ErrorMessage="Address is required"
+                                                                ControlToValidate="txtCOD" ForeColor="Red" Display="Dynamic" SetFocusOnError="true" ValidationGroup="cod" Font-Names="Segoe Script"></asp:RequiredFieldValidator>*@
+                                </div>
+
+                                <p>
+                                    <a href="#" ID="lbCOD" class="btn btn-info" ValidationGroup="cod" onclick="Orderpayment('cod')"><i class="fa fa-cart-arrow-down mr-2"></i>Confirm Order</a>
+
+                                </p>
+                                <p class="text-muted">
+                                    Note: After clicking on the button, you will be directed to a secure gateway for payment.
+                                    After completing the payment process, you will be redirected back to the website to view details of your order.
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                        <div class="card-footer">
+                            <b id="price" class="badge badge-warning badge-rounded shadow-lg">Order</b>
+
+                            <div class="pt-1">
+                                @*<asp:ValidationSummary ID="ValidationSummary1"  ForeColor="Red" ValidationGroup="card"
+                                                       HeaderText="Fix Following Errors" Font-Names="Seoge Script" />*@
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="~/Javascript/CheckOut.js"></script>
+<script type="text/javascript">
+    //console.log(sessionStorage.getItem('totalprice'))
+    //document.getElementById("hdfprice").innerHTML = sessionStorage.getItem('totalprice')
+    //document.getElementById("price").innerHTML = "Order Total : Rs "+sessionStorage.getItem('totalprice');
+    //ViewBag.totalprice = document.getElementById("hdfprice").innerHTML
+    //
+    //    string price = Convert.ToString(ViewBag.totalprice);
+    //    Context.Session.SetString("totalprice",price);
+    //}    
+</script>
